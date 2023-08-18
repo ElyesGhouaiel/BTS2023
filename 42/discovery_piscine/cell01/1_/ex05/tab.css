@@ -1,0 +1,13 @@
+table {  
+    border-collapse: collapse; 
+    height: 100px;
+    width: 50%; 
+}
+.colonne1{
+    border: 2px solid black;
+    background-color: green;  
+}
+.colonne2{
+    border: 2px solid black;
+    background-color: orange;
+}

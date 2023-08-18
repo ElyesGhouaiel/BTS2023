@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">    
+<title>MonPortefollio</title>
+</head>
+<style>
+    img{
+        float: left;
+        margin: 0 15px 15px 0;
+        width : 350px;
+        height : 350px;
+    }
+    h1{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    p{
+        text-align: justify;
+    }
+    .detail{
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+    }
+    li{
+       padding-bottom: 10px;
+       list-style-type: circle;
+    }
+    h3{
+        padding-top:10px ;
+    }
+    @media only screen and (max-width:1200px){
+        h1 + p{
+            text-align: center;
+        }
+        img{
+            width:460px;
+            height:460px;
+        }
+        .detail{
+            flex-direction: column;
+            justify-content:left;
+            width: 100%;
+        }
+        ul{
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        #test{
+            display:grid;
+        }
+    }
+        
+    
+
+    
+</style>
+<body>
+    <div class="container" style="height:100vh">
+        <h1>About</h1>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <div id="test">
+            <div id="image"> <img id="monsieur" src="https://bootstrapmade.com/demo/templates/MyResume/assets/img/profile-img.jpg"> </div>
+            
+            <div class="contenu">
+                <h3>UI/UX Designer & Web developper</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="detail">
+                    <ul>
+                        <li><b>Birthday:</b> 1 May 1995</li>
+                        <li><b>Website: </b> www.example.com </li>
+                        <li><b>Phone</b>+123 456 7890</li>
+                        <li><b>City:</b>New York, USA</li>
+                    </ul>
+                    <ul>
+                        <li><b>Age:</b> 30</li>
+                        <li><b>Degree:</b> Master</li>
+                        <li><b>PhEmailone:</b> email@example.com</li>
+                        <li><b>Freelance:</b> Available</li>
+                    </ul>
+                </div>
+                <p>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</p>
+            </div>
+        </div>       
+        </div>
+  
+    
+   
+</body>
+</html>
