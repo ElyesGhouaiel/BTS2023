@@ -1,0 +1,6 @@
+﻿  CImprimante.cpp
+  Console_Classe_Etudiant.cpp
+C:\Users\Etudiant\source\repos\Console_Classe_Etudiant\Console_Classe_Etudiant\Console_Classe_Etudiant.cpp(21,57): warning C4305: 'argument' : troncation de 'double' à 'float'
+  COrdinateur.cpp
+  Génération de code en cours...
+  Console_Classe_Etudiant.vcxproj -> C:\Users\Etudiant\source\repos\Console_Classe_Etudiant\Debug\Console_Classe_Etudiant.exe

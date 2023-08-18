@@ -1,0 +1,3 @@
+﻿  ConsoleTestString.cpp
+C:\Users\Etudiant\source\repos\ConsoleTestString\ConsoleTestString\ConsoleTestString.cpp(14,23): warning C4018: '<' : incompatibilité signed/unsigned
+  ConsoleTestString.vcxproj -> C:\Users\Etudiant\source\repos\ConsoleTestString\Debug\ConsoleTestString.exe

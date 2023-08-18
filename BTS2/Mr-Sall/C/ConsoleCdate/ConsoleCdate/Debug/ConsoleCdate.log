@@ -1,0 +1,5 @@
+﻿  ConsoleCdate.cpp
+C:\Users\Etudiant\source\repos\ConsoleCdate\ConsoleCdate\ConsoleCdate.cpp(11,10): warning C4930: 'DATE uneDate(void)' : fonction prototypée non appelée (était-ce la définition de variable souhaitée ?)
+  Date.cpp
+  Génération de code en cours...
+  ConsoleCdate.vcxproj -> C:\Users\Etudiant\source\repos\ConsoleCdate\Debug\ConsoleCdate.exe

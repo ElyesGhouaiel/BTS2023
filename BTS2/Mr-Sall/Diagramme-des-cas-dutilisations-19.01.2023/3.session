@@ -1,0 +1,12 @@
+window_sizes 939 1008 0 934 856 104
+
+diagrams
+  active  usecasediagram_ref 128003 // use case dia
+    934 856 110 A4 4 9
+end
+show_stereotypes
+selected usecasediagram_ref 128003 // use case dia
+open
+  usecaseview_ref 128003 // use case
+end
+end

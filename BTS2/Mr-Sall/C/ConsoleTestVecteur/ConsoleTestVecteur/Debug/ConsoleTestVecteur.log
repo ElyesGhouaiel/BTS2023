@@ -1,0 +1,4 @@
+﻿  ConsoleTestVecteur.cpp
+C:\Users\Etudiant\source\repos\ConsoleTestVecteur\ConsoleTestVecteur\ConsoleTestVecteur.cpp(30,23): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Users\Etudiant\source\repos\ConsoleTestVecteur\ConsoleTestVecteur\ConsoleTestVecteur.cpp(37,23): warning C4018: '<' : incompatibilité signed/unsigned
+  ConsoleTestVecteur.vcxproj -> C:\Users\Etudiant\source\repos\ConsoleTestVecteur\Debug\ConsoleTestVecteur.exe

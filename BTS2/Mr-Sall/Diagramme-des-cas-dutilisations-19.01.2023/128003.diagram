@@ -1,0 +1,73 @@
+format 224
+
+classcanvas 128003 class_ref 128003 // Senior
+  simpleclassdiagramsettings end
+  xyz 199 69 2000
+end
+classcanvas 128387 class_ref 128387 // Intervenant_Exterieur
+  simpleclassdiagramsettings end
+  xyz 146 546 2000
+end
+usecasecanvas 128771 usecase_ref 128003 // Declencher une alarme d'urgence
+  xyzwh 412 65 3005 64 32 label_xy 363 97
+end
+usecasecanvas 129027 usecase_ref 128131 // Visualiser les données environnementales de son domicile
+  xyzwh 297 404 3005 64 32 label_xy 189 436
+end
+usecasecanvas 129283 usecase_ref 128259 // Enregistrer dans une BDD
+  xyzwh 325 334 3005 64 32 label_xy 295 366
+end
+usecasecanvas 129667 usecase_ref 128387 // Vidéo-Surveiller le Domicile
+  xyzwh 426 120 3005 64 32 label_xy 393 152
+end
+usecasecanvas 129923 usecase_ref 128515 // Domotiser les equipements de la maison
+  xyzwh 430 183 3005 64 32 label_xy 366 215
+end
+usecasecanvas 130179 usecase_ref 128643 // Faire des demandes assistances
+  xyzwh 476 303 3005 64 32 label_xy 428 335
+end
+fragment 130947 "SeniorHomeAssist"
+  xyzwh 293 16 2000 422 696
+end
+classcanvas 131075 class_ref 128131 // Proche_Distant
+  simpleclassdiagramsettings end
+  xyz 753 332 2000
+end
+usecasecanvas 131459 usecase_ref 128771 // Savoir si le senior est dans son domicile
+  xyzwh 496 261 3005 64 32 label_xy 432 293
+end
+usecasecanvas 132483 usecase_ref 128899 // Compte rendu physique
+  xyzwh 442 544 3005 64 32 label_xy 417 576
+end
+line 128899 ----
+  from ref 128003 z 3006 to ref 128771
+line 129155 ----
+  from ref 128003 z 3006 to ref 129027
+simplerelationcanvas 129411 simplerelation_ref 128003
+  from ref 129027 z 3006 stereotype "<<include>>" xyz 278.5 379 3000 to ref 129283
+end
+line 129795 ----
+  from ref 128003 z 3006 to ref 129667
+line 130051 ----
+  from ref 128003 z 3006 to ref 129923
+line 130307 ----
+  from ref 128003 z 3006 to ref 130179
+line 130435 ----
+  from ref 128387 z 3006 to ref 130179
+line 131331 ----
+  from ref 131075 z 3006 to ref 130179
+line 131587 ----
+  from ref 131075 z 3006 to ref 131459
+line 131715 ----
+  from ref 128003 z 3006 to ref 131459
+line 131843 ----
+  from ref 131075 z 3006 to ref 128771
+line 131971 ----
+  from ref 131075 z 3006 to ref 129027
+line 132355 ----
+  from ref 128387 z 3006 to ref 129027
+line 132611 ----
+  from ref 131075 z 3006 to ref 132483
+line 132739 ----
+  from ref 128387 z 3006 to ref 132483
+end

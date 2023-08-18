@@ -1,0 +1,12 @@
+window_sizes 958 1008 118 835 858 104
+
+diagrams
+  active  classdiagram_ref 128003 // CDtest
+    1797 865 100 A4 0 0
+end
+show_stereotypes
+selected class_ref 128003 // CDate
+open
+  class_ref 128003 // CDate
+end
+end

@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-4ec126e08ea031f43543.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "exo-2-essaie2",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "exo-2-essaie2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exo-2-essaie2-Debug-04c8bb67d184a3a3b76b.json",
+					"name" : "exo-2-essaie2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/BTS 2 \u00e8me ann\u00e9e/Mr navarro/Programmation c++/entrainement rentr\u00e9e/build-exo-2-essaie2-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
+		"source" : "E:/BTS 2 \u00e8me ann\u00e9e/Mr navarro/Programmation c++/entrainement rentr\u00e9e/exo-2-essaie2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

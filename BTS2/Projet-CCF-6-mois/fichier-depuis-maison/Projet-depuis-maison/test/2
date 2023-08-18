@@ -1,0 +1,53 @@
+import mysql.connector
+import time
+
+# Informations de connexion
+config = {
+  'user': 'AfficheurUser',
+  'password': 'Azerty77afficheur',
+  'host': '10.198.214.76',
+  'database': 'BDDPrincipal'
+}
+
+def retrieve_data():
+    # Se connecter à la base de données
+    cnx = mysql.connector.connect(**config)
+    cursor = cnx.cursor()
+
+    # Exécuter une requête SQL
+    query = "SELECT * FROM Afficheurs"
+    cursor.execute(query)
+
+    # Récupérer les résultats
+    data = cursor.fetchall()
+
+    # Fermer la connexion
+    cursor.close()
+    cnx.close()
+
+    return data
+
+def send_to_arduino(message):
+    # Code pour envoyer le message à l'Arduino
+    # Remplacez cette partie par votre propre code pour communiquer avec l'Arduino
+    print("Envoi du message à l'Arduino :", message)
+
+def main():
+    previous_data = None
+
+    while True:
+        # Récupérer les données de la base de données
+        data = retrieve_data()
+
+        # Vérifier si les données ont changé
+        if data != previous_data:
+            for (Id_Afficheurs, Contenu, Emplacement) in data:
+                print("Numéro de l'afficheur {} Message : {} {}.".format(Id_Afficheurs, Contenu, Emplacement))
+                send_to_arduino(Contenu)  # Envoyer le message à l'Arduino
+
+            previous_data = data
+
+        time.sleep(10)  # Attendre 10 secondes avant de vérifier à nouveau
+
+if __name__ == "__main__":
+    main()

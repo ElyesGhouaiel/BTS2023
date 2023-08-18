@@ -1,0 +1,7 @@
+format 224
+
+classcanvas 128003 class_ref 128003 // CDate
+  classdiagramsettings member_max_width 0 end
+  xyzwh 194 177 2000 247 219
+end
+end
