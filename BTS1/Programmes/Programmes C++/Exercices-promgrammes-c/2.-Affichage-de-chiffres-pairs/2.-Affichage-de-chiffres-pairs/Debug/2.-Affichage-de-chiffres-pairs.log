@@ -1,0 +1,6 @@
+﻿  2. Affichage de chiffres pairs.cpp
+D:\Bts S.N.I.R Première année\Exercices promgrammes c++\2. Affichage de chiffres pairs\2. Affichage de chiffres pairs\2. Affichage de chiffres pairs.cpp(15,1): error C2143: erreur de syntaxe : absence de ';' avant 'do'
+D:\Bts S.N.I.R Première année\Exercices promgrammes c++\2. Affichage de chiffres pairs\2. Affichage de chiffres pairs\2. Affichage de chiffres pairs.cpp(15,1): error C2059: erreur de syntaxe : 'do'
+D:\Bts S.N.I.R Première année\Exercices promgrammes c++\2. Affichage de chiffres pairs\2. Affichage de chiffres pairs\2. Affichage de chiffres pairs.cpp(16,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+D:\Bts S.N.I.R Première année\Exercices promgrammes c++\2. Affichage de chiffres pairs\2. Affichage de chiffres pairs\2. Affichage de chiffres pairs.cpp(16,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+D:\Bts S.N.I.R Première année\Exercices promgrammes c++\2. Affichage de chiffres pairs\2. Affichage de chiffres pairs\2. Affichage de chiffres pairs.cpp(20,3): error C2059: erreur de syntaxe : 'while'

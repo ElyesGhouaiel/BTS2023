@@ -1,0 +1,14 @@
+﻿  Calcul de factorielle N.cpp
+D:\programme c++\Calcul de factorielle N\Calcul de factorielle N\Calcul de factorielle N.cpp(18,15): error C2872: 'max' : symbole ambigu
+D:\programme c++\Calcul de factorielle N\Calcul de factorielle N\Calcul de factorielle N.cpp(13,5): message : est peut-être 'int max'
+D:\programme c++\Calcul de factorielle N\Calcul de factorielle N\Calcul de factorielle N.cpp(18,15): message : ou       'max'
+D:\programme c++\Calcul de factorielle N\Calcul de factorielle N\Calcul de factorielle N.cpp(20,16): error C2065: 'To' : identificateur non déclaré
+D:\programme c++\Calcul de factorielle N\Calcul de factorielle N\Calcul de factorielle N.cpp(20,19): error C2146: erreur de syntaxe : absence de ')' avant l'identificateur 'max'
+D:\programme c++\Calcul de factorielle N\Calcul de factorielle N\Calcul de factorielle N.cpp(20,22): error C2872: 'max' : symbole ambigu
+D:\programme c++\Calcul de factorielle N\Calcul de factorielle N\Calcul de factorielle N.cpp(13,5): message : est peut-être 'int max'
+D:\programme c++\Calcul de factorielle N\Calcul de factorielle N\Calcul de factorielle N.cpp(20,22): message : ou       'max'
+D:\programme c++\Calcul de factorielle N\Calcul de factorielle N\Calcul de factorielle N.cpp(20,25): error C2059: erreur de syntaxe : ')'
+D:\programme c++\Calcul de factorielle N\Calcul de factorielle N\Calcul de factorielle N.cpp(23,10): error C2143: erreur de syntaxe : absence de ';' avant '<<'
+D:\programme c++\Calcul de factorielle N\Calcul de factorielle N\Calcul de factorielle N.cpp(23,10): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+D:\programme c++\Calcul de factorielle N\Calcul de factorielle N\Calcul de factorielle N.cpp(24,1): error C2059: erreur de syntaxe : '}'
+D:\programme c++\Calcul de factorielle N\Calcul de factorielle N\Calcul de factorielle N.cpp(24,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
